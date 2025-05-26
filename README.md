@@ -103,12 +103,18 @@ Full hyper‑params are logged to TensorBoard under `./logs/`.
 
 ## 📝  Model Card (Short)
 
-* **Intended use:** Assist dermatologists / provide second opinion – **not** a standalone diagnostic tool.
-* **Training data:** 8 000 benign vs 2 000 malignant dermoscopic images (ISIC 2020, HAM10000).
-* **Limitations:** Performance drops on non‑dermoscopic or highly occluded images; no support for rare sub‑types.
-* **Ethical considerations:** Always seek professional medical advice; do **not** rely solely on automated predictions.
+**Intended use:** Support dermatologists with preliminary triage and second opinions. ⚠️ Not a substitute for clinical diagnosis.
 
-See `MODEL_CARD.md` for the complete version.
+**Training data:** ~10 000 dermoscopic images sourced from ISIC 2020 and HAM10000. The dataset was balanced between benign and malignant cases to prevent model bias.
+
+**Limitations:** May underperform on:
+- Non‑dermoscopic images (e.g. smartphone photos),
+- Occluded or poor-quality samples,
+- Rare or ambiguous melanoma subtypes.
+
+**Ethical considerations:** This model does **not** replace professional diagnosis. Use only with de-identified, high-quality clinical imagery. Always consult a healthcare provider.
+
+*See [`MODEL_CARD.md`](MODEL_CARD.md) for details.*
 
 ---
 
