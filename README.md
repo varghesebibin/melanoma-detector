@@ -1,7 +1,7 @@
-# 🩺 Melanoma Detector – End‑to‑End Skin‑Cancer Classification
+# Melanoma Detector – End‑to‑End Skin‑Cancer Classification
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/varghesebibin/melanoma-detector/main/.github/banner.png" alt="banner"/>
+  <img src="Logo/Dermatology.jpeg"alt="banner"/>
 </p>
 
 > **A lightweight MobileNetV2‑based classifier delivered through an interactive Streamlit web app.** Trained on 10 000 dermoscopic images and fine‑tuned to reach **≈ 90 % val‑accuracy**.
@@ -14,7 +14,7 @@
 | ----------------------------- | ------------------------------------------------------------------------------------- |
 | **MobileNetV2 fine‑tuned**    | Fast inference on CPU‑only back‑ends (Streamlit Cloud, Heroku, low‑spec laptops).     |
 | **End‑to‑end code**           | From raw dataset → data loaders → training notebook → web app → one‑click deploy.     |
-| **Reproducible environment**  | Pinned `python‑3.10` + `tensorflow‑cpu==2.16.2` – wheels exist for all platforms.     |
+| **Reproducible environment**  | Pinned `python‑3.9` + `tensorflow‑cpu==2.16.2` – wheels exist for all platforms.     |
 | **Model card & explanations** | Clear description of dataset splits, metrics, limitations and ethical considerations. |
 | **CI hook**                   | Optional GitHub Action to smoke‑test the app on every push (disabled by default).     |
 
