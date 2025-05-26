@@ -22,7 +22,7 @@ This model performs binary classification to detect melanoma from dermoscopic im
 - **Base model:** MobileNetV2 (pretrained on ImageNet)
 - **Loss function:** Binary Crossentropy
 - **Optimizer:** Adam (lr = 1e-4)
-- **Epochs:** ~20 with EarlyStopping (patience = 5)
+- **Epochs:** ~10 with EarlyStopping (patience = 5)
 - **Augmentation:** Horizontal/vertical flip, rotation, brightness
 
 ---
