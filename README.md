@@ -1,4 +1,4 @@
-# 🩺 Melanoma Detector – End‑to‑End Skin‑Cancer Classification
+# Melanoma Detector – End‑to‑End Skin‑Cancer Classification
 
 <p align="center">
   <img src="Logo/Dermatology.jpeg"alt="banner"/>
