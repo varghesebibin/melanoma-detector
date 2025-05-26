@@ -25,9 +25,9 @@ st.markdown("### 🧪 Try a sample image:")
 col1, col2 = st.columns(2)
 
 if col1.button("Use Sample Benign Image"):
-    uploaded_file = "sample_images/benign1.jpg"
+    uploaded_file = "sample_images/benign.jpg"
 elif col2.button("Use Sample Malignant Image"):
-    uploaded_file = "sample_images/malignant1.jpg"
+    uploaded_file = "sample_images/malignant.jpg"
 else:
     uploaded_file = st.file_uploader("📤 Upload your own image (jpg/png)", type=["jpg", "jpeg", "png"])
 
