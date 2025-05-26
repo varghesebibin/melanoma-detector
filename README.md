@@ -14,7 +14,7 @@
 | ----------------------------- | ------------------------------------------------------------------------------------- |
 | **MobileNetV2 fine‑tuned**    | Fast inference on CPU‑only back‑ends (Streamlit Cloud, Heroku, low‑spec laptops).     |
 | **End‑to‑end code**           | From raw dataset → data loaders → training notebook → web app → one‑click deploy.     |
-| **Reproducible environment**  | Pinned `python‑3.10` + `tensorflow‑cpu==2.16.2` – wheels exist for all platforms.     |
+| **Reproducible environment**  | Pinned `python‑3.9` + `tensorflow‑cpu==2.16.2` – wheels exist for all platforms.     |
 | **Model card & explanations** | Clear description of dataset splits, metrics, limitations and ethical considerations. |
 | **CI hook**                   | Optional GitHub Action to smoke‑test the app on every push (disabled by default).     |
 
