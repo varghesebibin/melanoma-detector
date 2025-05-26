@@ -1,7 +1,7 @@
 # 🩺 Melanoma Detector – End‑to‑End Skin‑Cancer Classification
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/varghesebibin/melanoma-detector/main/.github/banner.png" alt="banner"/>
+  <img src="Logo/Dermatology.jpeg"alt="banner"/>
 </p>
 
 > **A lightweight MobileNetV2‑based classifier delivered through an interactive Streamlit web app.** Trained on 10 000 dermoscopic images and fine‑tuned to reach **≈ 90 % val‑accuracy**.
