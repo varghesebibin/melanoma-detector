@@ -22,7 +22,7 @@
 
 ## 🔗 Live Demo
 
-> **Streamlit Cloud** → > <strong>Streamlit Cloud</strong> → <a href="https://melanoma-cancer-detector.streamlit.app" target="_blank">https://melanoma-cancer-detector.streamlit.app</a>
+> **Streamlit Cloud** → [https://melanoma-cancer-detector.streamlit.app](https://melanoma-cancer-detector.streamlit.app) *(opens in same tab – right-click to open in new tab)*
 
 Feel free to upload your own dermoscopic image *(⚠️ non‑identifiable images only!)* and see the predicted probability.
 
