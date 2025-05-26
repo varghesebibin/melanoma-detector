@@ -143,6 +143,7 @@ This project is released under the **MIT License** – see [`LICENSE`](LICENSE) 
 * ISIC Archive & HAM10000 researchers for the open dataset.
 * Keras Team for the high‑level API.
 * Streamlit for the free community cloud hosting.
+* > 🖼️ *Dermatology image used in the logo is sourced from [Stanford News](https://news.stanford.edu/__data/assets/image/0033/69738/Dermatology_sub.jpeg).*
 
 ---
 
