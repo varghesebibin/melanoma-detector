@@ -1,5 +1,5 @@
 streamlit
-tensorflow==2.15.0
+tensorflow-cpu==2.16.2      # last wheel that exists for Python-3.10
 pillow
 matplotlib
 numpy
