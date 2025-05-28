@@ -54,6 +54,17 @@ Upload a skin-lesion image and this AI model will predict whether it is **Benign
 The model is fine-tuned from **MobileNetV2** and trained on 10 000 labelled images.
 """
 )
+st.warning(
+    "⚠️ **Important:** This model is trained only on *dermoscopic* images. "
+    "Smartphone or non‑clinical photos may result in incorrect predictions."
+)
+
+st.markdown(
+    "**Limitations:**\n"
+    "- May underperform on non‑dermoscopic images (e.g. smartphone photos),\n"
+    "- Low-quality, blurred, or occluded samples,\n"
+    "- Rare or ambiguous melanoma subtypes."
+)
 
 # -------------------------------------------------- #
 # 4️⃣  Sample buttons + uploader
